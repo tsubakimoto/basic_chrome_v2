@@ -1,0 +1,17 @@
+{
+	"name": "My second extension",
+	"version": "0.1",
+	"manifest_version": 2,
+	
+	"description": "今いるページの背景色を変えるよ！",
+	
+	"permissions": [
+		"tabs", "http://*/*"
+	],
+	
+	"browser_action": {
+		"default_icon": "icon1.png",
+		"default_title": "My second extension",
+		"default_popup": "popup.html"
+	}
+}
