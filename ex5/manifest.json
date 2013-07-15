@@ -1,0 +1,20 @@
+{
+	"name": "My fifth extension",
+	"version": "0.1",
+	"manifest_version": 2,
+	
+	"description": "dotinstallの背景色を変える！",
+	
+	"permissions": [
+		"tabs", "http://*/*"
+	],
+	
+	"background": {
+		"scripts": ["background.js"]
+	},
+	
+	"page_action": {
+		"default_icon": "icon1.png",
+		"default_title": "My fifth extension"
+	}
+}
