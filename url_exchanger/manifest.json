@@ -1,0 +1,20 @@
+{
+	"name": "URL Exchanger",
+	"version": "0.1",
+	"manifest_version": 2,
+	
+	"description": "Change the url of xvideos to embed url",
+	
+	"permissions": [
+		"tabs", "http://*/*"
+	],
+	
+	"background": {
+		"scripts": ["background.js"]
+	},
+	
+	"page_action": {
+		"default_icon": "icon1.png",
+		"default_title": "URL Exchanger"
+	}
+}
